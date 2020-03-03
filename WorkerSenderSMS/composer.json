@@ -1,0 +1,12 @@
+{
+	"autoload": {
+		"psr-0": { "SenderSms": "src/" }
+	},
+	"require": {
+		"silex/silex": "^2.2",
+		"giggsey/libphonenumber-for-php": "^8.10",
+		"knplabs/console-service-provider": "^2.2",
+		"php-amqplib/php-amqplib": "^2.10",
+		"swiftmailer/swiftmailer" : "^5.4"
+	}
+}
